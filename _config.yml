@@ -4,7 +4,7 @@ description: >
   a minimal site with prewritten emails
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hitchhiker.ma" # the base hostname & protocol for your site
+url: "http://canned-emails.lightrains.com" # the base hostname & protocol for your site
 
 permalink: /email/:title
 
