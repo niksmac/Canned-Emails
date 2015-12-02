@@ -24,4 +24,4 @@ Please do not add any more categories.
 
 ## Thanks
  1. [@dwmerriman](https://twitter.com/dwmerriman)
- 2. [@lightraisntech](https://twitter.com/lightraisntech) Lightrains Technolabs Pvt Ltd
+ 2. [@lightrainstech](https://twitter.com/lightraisntech) Lightrains Technolabs Pvt Ltd
