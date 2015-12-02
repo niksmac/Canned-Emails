@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How can i contribute?
-permalink: /contribute
+permalink: /contribute/
 ---
 
 # How can i contribute to Canned Emails?
