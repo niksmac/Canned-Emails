@@ -5,10 +5,6 @@ date:   2015-12-01 00:00:08
 categories: [work, personal]
 ---
 
-Subject: Apologies - must reschedule
-
----
-
 I'm very sorry - something has come up in the last minute.
 
 I'm going to need to reschedule our appointment.

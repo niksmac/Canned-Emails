@@ -5,11 +5,6 @@ date:   2015-12-01 00:00:02
 categories: [work]
 ---
 
-
-Subject: Available to help - please read
-
----
-
 Hello!
 
 I was told you're looking for someone to handle some specific challenges in your business.

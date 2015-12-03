@@ -1,314 +1,328 @@
 /* =Base */
 body {
-    font-family: 'Inconsolata', ;
-    color: $iron;
-    background-color: $dorian;
+  font-family: 'Inconsolata', ;
+  color: $iron;
+  background-color: $dorian;
 }
 
 a {
-    color: $cloudy;
-    font-weight: bold;
-    text-decoration: none;
+  color: $cloudy;
+  font-weight: bold;
+  text-decoration: none;
 
-    &:hover {
+  &:hover {
 
-    }
+  }
+}
+
+body.sunset {
+
+  background: url(/assets/img/sunset.jpg) no-repeat center center fixed #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  a, .post-teaser__date, .explore {
+    color: #EEE;
+  }
+
 }
 body.night {
-    color: $niron !important;
-    background-color: $ndorian !important;
+  color: $niron !important;
+  background-color: $ndorian !important;
 
-    .logo, .post-teaser__title, .categories__item a, p, strong {
-      color: $niron;
-    }
+  .logo, .post-teaser__title, .categories__item a, p, strong {
+    color: $niron;
+  }
 }
 p {
-    font-size: 20px;
-    color: $iron;
-    line-height: 32px;
+  font-size: 20px;
+  color: $iron;
+  line-height: 32px;
 }
 
 img {
-    margin: 40px auto;
-    display: block;
-    max-width: 100%;
+  margin: 40px auto;
+  display: block;
+  max-width: 100%;
 }
 
 blockquote {
-    letter-spacing: 3px;
-    margin:0px;
-    margin-top: 40px;
-    margin-bottom: 70px;
-    padding: 0px;
-    text-align: center;
-    position: relative;
+  letter-spacing: 3px;
+  margin:0px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  padding: 0px;
+  text-align: center;
+  position: relative;
 
-    footer {
-        position: absolute;
-        bottom: -35px;
-        font-size: 15px;
-        color: $iron;
-        letter-spacing: 0px;
-        left:0px;
-        right: 0px;
+  footer {
+    position: absolute;
+    bottom: -35px;
+    font-size: 15px;
+    color: $iron;
+    letter-spacing: 0px;
+    left:0px;
+    right: 0px;
 
-        &:before { content: "** "; }
-        &:after { content: " **"; }
-    }
+    &:before { content: "** "; }
+    &:after { content: " **"; }
+  }
 
-    p {
-        display: inline;
-        font-size: 20px;
-        color: $cloudy;
-        font-weight: 400;
-        &:before { content: "“ "; }
-        &:after { content: " ”"; }
-    }
+  p {
+    display: inline;
+    font-size: 20px;
+    color: $cloudy;
+    font-weight: 400;
+    &:before { content: "“ "; }
+    &:after { content: " ”"; }
+  }
 }
 
 strong {
-    color: $iron;
+  color: $iron;
 }
 
 /* =Header */
 .wrapper {
-    max-width: 800px;
-    margin: 100px auto;
+  max-width: 800px;
+  margin: 100px auto;
 }
 
 .header {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .navigation {
-    float:left;
+  float:left;
 }
 
 .logo {
-    font-size: 50px;
-    font-weight: 700;
-    color: $iron;
-    display: block;
+  font-size: 50px;
+  font-weight: 700;
+  color: $iron;
+  display: block;
 }
 
 .menu {
-    color: $cloudy;
-    font-size: 18px;
-    margin:0px;
-    margin-top: 6px;
-    padding: 0px;
-    list-style-type: none;
+  color: $cloudy;
+  font-size: 18px;
+  margin:0px;
+  margin-top: 6px;
+  padding: 0px;
+  list-style-type: none;
 }
 
 .menu__entry {
-    display: inline-block;
-    margin-right: 35px;
+  display: inline-block;
+  margin-right: 35px;
 
-    &:last-child {
-        margin-right: 0px;
-    }
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .menu__entry a {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .social-links {
-    float:right;
-    font-size: 24px;
-    color: $cloudy;
-    list-style-type: none;
+  float:right;
+  font-size: 24px;
+  color: $cloudy;
+  list-style-type: none;
 }
 
 .social-links__entry {
-    display: inline-block;
-    margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 /* =Titles */
 .page-title {
-    margin-top:100px;
-    margin-bottom:125px;
-    text-align: center;
+  margin-top:100px;
+  margin-bottom:125px;
+  text-align: center;
 }
 
 .page-title__text {
-    font-weight: 700;
-    font-size: 70px;
+  font-weight: 700;
+  font-size: 70px;
 }
 
 .page-title__subtitle {
-    font-weight: 400;
-    font-size: 22px;
-    color: $cloudy;
+  font-weight: 400;
+  font-size: 22px;
+  color: $cloudy;
 }
 
 .post-title {
-    margin-bottom: 110px;
+  margin-bottom: 110px;
 }
 
 .post-title__text {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .post-title__subtitle {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* =Post teasers */
 
 .list-posts {
-    list-style-type: none;
-    padding: 0px;
+  list-style-type: none;
+  padding: 0px;
 }
 
 .post-teaser {
-    margin-bottom: 45px;
-    font-weight: 700;
+  margin-bottom: 45px;
+  font-weight: 700;
 }
 
 .post-teaser__title {
-    font-size: 22px;
-    color: $iron;
+  font-size: 22px;
+  color: $iron;
 }
 
 .post-teaser__date {
-    font-size: 16px;
-    float: right;
-    vertical-align: middle;
-    color: $cloudy;
+  font-size: 16px;
+  float: right;
+  vertical-align: middle;
+  color: $cloudy;
 }
 
 .empty-post-list {
-    font-size: 22px;
-    font-weight: 700;
-    color: $iron;
-    text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: $iron;
+  text-align: center;
 }
 
 /* =Explore */
 .explore {
-    text-align: center;
-    color: $cloudy;
-    margin: 100px 0;
+  text-align: center;
+  color: $cloudy;
+  margin: 100px 0;
 }
 
 .explore__devider {
-    font-size: 18px;
-    letter-spacing: 8.18px;
+  font-size: 18px;
+  letter-spacing: 8.18px;
 }
 
 .explore__label {
-    font-size: 14px;
-    margin-top: 15px;
+  font-size: 14px;
+  margin-top: 15px;
 }
 
 .categories {
-    list-style-type: none;
-    margin-top: 15px;
-    padding: 0px;
+  list-style-type: none;
+  margin-top: 15px;
+  padding: 0px;
 }
 
 .categories__item {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 18px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .categories__item a {
-    color: $iron;
+  color: $iron;
 }
 
 .categories__item:after {
-    content: "/";
-    margin-left: 6px;
-    color: $cloudy;
+  content: "/";
+  margin-left: 6px;
+  color: $cloudy;
 }
 
 .categories__item:last-child:after {
-    content: "";
-    margin-left: 0px;
+  content: "";
+  margin-left: 0px;
 }
 
 
 /* =Post page */
 .about {
-    color: $cloudy;
-    margin-top: 70px;
-    text-align: center;
-    line-height: 24px;
+  color: $cloudy;
+  margin-top: 70px;
+  text-align: center;
+  line-height: 24px;
 }
 
 .about__devider {
-    font-size: 20px;
-    margin-bottom: 50px;
-    letter-spacing: 9.09px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  letter-spacing: 9.09px;
 }
 
 .about__text {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 #disqus_thread {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 @media (max-width: 800px) {
-    /* =Base */
-    p {
-        font-size: 16px;
-        line-height: 1.6;
-    }
+  /* =Base */
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
 
-    .wrapper {
-        width: 80%;
-    }
+  .wrapper {
+    width: 80%;
+  }
 
-    .navigation,
-    .social-links {
-        @include centered-block();
-    }
+  .navigation,
+  .social-links {
+    @include centered-block();
+  }
 
-    .social-links {
-        font-size: 30px;
-        margin-top: 35px;
-    }
+  .social-links {
+    font-size: 30px;
+    margin-top: 35px;
+  }
 
-    .page-title {
-        margin: 40px 0;
-    }
+  .page-title {
+    margin: 40px 0;
+  }
 
-    .page-title__text {
-        font-size: 40px;
-    }
+  .page-title__text {
+    font-size: 40px;
+  }
 
-    .page-title__subtitle {
-        font-size: 18px;
-    }
+  .page-title__subtitle {
+    font-size: 18px;
+  }
 
-    .post-teaser__title {
-        font-size: 18px;
-        @include centered-block();
-    }
+  .post-teaser__title {
+    font-size: 18px;
+    @include centered-block();
+  }
 
-    .post-teaser__date {
-        font-size: 16px;
-        margin-top: 10px;
-        float: none;
-        @include centered-block();
-    }
+  .post-teaser__date {
+    font-size: 16px;
+    margin-top: 10px;
+    float: none;
+    @include centered-block();
+  }
 
-    .explore {
-        margin-top: 80px;
-    }
+  .explore {
+    margin-top: 80px;
+  }
 
-    .post-title__text {
-        font-size: 28px;
-    }
+  .post-title__text {
+    font-size: 28px;
+  }
 
-    .post-title__subtitle {
-        font-size: 18px;
-    }
+  .post-title__subtitle {
+    font-size: 18px;
+  }
 }
 .yellow {
   color: yellow;

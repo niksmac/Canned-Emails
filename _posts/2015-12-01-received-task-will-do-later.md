@@ -7,10 +7,6 @@ author:
   fullname: Aparna K
 ---
 
-Subject: Got it. Thanks
-
----
-
 Just a heads up: I'm extremely busy right now, so it will take me some time to get to this.
 
 Please remind me again if I don't get to this soon.
