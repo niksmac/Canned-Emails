@@ -6,6 +6,8 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://canned-emails.lightrains.com" # the base hostname & protocol for your site
 
+cover: /assets/img/canned-emails.png
+
 permalink: /email/:title
 
 author:

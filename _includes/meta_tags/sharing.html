@@ -7,11 +7,7 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ title }}" />
 <meta name="twitter:description" content="{{ description }}" />
-<meta name="twitter:image" content="{{ site.url }}{{ cover }}" />
-
-<!-- Google plus -->
-<meta name="author" content="{{ site.author.googleplus }}">
-<link rel="author" href="{{ site.author.googleplus }}">
+<meta name="twitter:image" content="{{ site.url }}{{ site.cover }}" />
 
 <!-- Open Graph -->
 <meta property="og:locale" content="{{ site.lang }}">
@@ -20,3 +16,4 @@
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:image" content="{{ site.url }}{{ site.cover }}"/>
