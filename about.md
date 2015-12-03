@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: About
 subtitle: What is this all about?
 permalink: /about/
+---
+
 ---
 
 # Canned Emails
@@ -25,6 +27,11 @@ Gmail already lets you create filters based on a combination of keywords, sender
 
 ![How to automate canned responses](http://onlinetechtipscom.c.presscdn.com/wp-content/uploads/2008/10/gmail-canned-response.jpg)
 
+### History
+
+Canned Emails is a website where you can find pre-writtem emails, originally by [@dwmerriman](https://twitter.com/dwmerriman) at  [cannedemails.com](http://cannedemails.com).
+
+Open source Clone by [@nikhilmohan7](https://twitter.com/nikhilmohan7) at [canned-emails.lightrains.com](http://canned-emails.lightrains.com)
 
 ### Some nice reads
 

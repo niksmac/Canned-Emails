@@ -1,14 +1,14 @@
 ---
-layout: page
+layout: default
 title: How can i contribute?
 permalink: /contribute/
+---
+
 ---
 
 # How can i contribute to Canned Emails?
 
 ## Are you a developer ?
-
-if === `yes`
 
   `then`
 
