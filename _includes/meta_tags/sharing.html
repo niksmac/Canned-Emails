@@ -17,3 +17,18 @@
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:image" content="{{ site.url }}{{ site.cover }}"/>
+
+<script>
+// Change background depending on user’s time
+function applyclass() {
+var d = new Date();
+var n = d.getHours();
+if (n > 19)
+  document.body.className = "night";
+else if (n > 16 && n < 19)
+  document.body.className = "sunset";
+else
+  document.body.className = "day";
+}
+window.onload = applyclass;
+</script>

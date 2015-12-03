@@ -14,7 +14,14 @@ a {
 
     }
 }
+body.night {
+    color: $niron !important;
+    background-color: $ndorian !important;
 
+    .logo, .post-teaser__title, .categories__item a, p, strong {
+      color: $niron;
+    }
+}
 p {
     font-size: 20px;
     color: $iron;
@@ -302,4 +309,7 @@ strong {
     .post-title__subtitle {
         font-size: 18px;
     }
+}
+.yellow {
+  color: yellow;
 }

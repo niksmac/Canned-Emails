@@ -4,12 +4,18 @@
 @charset "utf-8";
 
 /* =Colors */
-$dorian: #F5F5F5;
+$dorian: #FCFCFC;
 $iron: #333333;
 $cloudy: #828282;
 
+// Night
+
+$ndorian: #2e2e2e;
+$niron: #CCCCCC;
+$ncloudy: #828282;
+
 @import
-    "mixins",
-    "default",
-    "404"
+  "mixins",
+  "default",
+  "404"
 ;
