@@ -5,10 +5,6 @@ date:   2015-12-01 00:00:01
 categories: [work, personal]
 ---
 
-Subject: I'm sorry! We're aware of your problem and working to fix it.
-
----
-
 I just saw your email. Yikes!
 
 I'm so sorry you've been having problems.

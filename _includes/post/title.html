@@ -1,9 +1,9 @@
 <h1 class="page-title post-title">
-    <div class="page-title__text post-title__text">{{ page.title }}</div>
-    {% if page.subtitle %}
-      <div class="page-title__subtitle post-title__subtitle">{{ page.subtitle }}</div>
-    {% endif %}
+  <div class="page-title__text post-title__text">{{ page.title }}</div>
+  {% if page.subtitle %}
+  <div class="page-title__subtitle post-title__subtitle">{{ page.subtitle }}</div>
+  {% endif %}
 </h1>
 <div class="social-links">
-  <a href="mailto:?subject={{ page.title }}&body={{ page.content | strip_html | uri_escape }}" title="Send Now" ><i class="fa fa-inbox"></i></a>
+  <a href="mailto:?subject={{ page.title }}&body={{ page.content | strip_html | uri_escape }}" title="Send Now" ><i class="fa fa-inbox yellow"></i></a>
 </div>

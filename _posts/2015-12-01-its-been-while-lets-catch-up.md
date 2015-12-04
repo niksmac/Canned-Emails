@@ -5,10 +5,6 @@ date:   2015-12-01 00:00:06
 categories: [work, personal]
 ---
 
-Subject: Hey. How's it going?
-
----
-
 It's been a while since we've last talked!
 
 How are you?

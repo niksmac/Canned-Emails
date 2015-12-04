@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: About
 subtitle: What is this all about?
-permalink: /about
+permalink: /about/
+---
+
 ---
 
 # Canned Emails
@@ -23,8 +25,13 @@ Canned Emails officially introduced in [Google Labs: Canned Responses](http://gm
 
 Gmail already lets you create filters based on a combination of keywords, sender, recipients, and more in your incoming messages. Turn on Canned Responses in Labs, and you can set a filter to grab one of your saved responses, create an automated reply, and hit the Send button for you.
 
-![How to automate canned responses](http://2.bp.blogspot.com/_JE4qNpFW6Yk/SP6HFcpQRoI/AAAAAAAAAIU/8RryGij44Q8/s1600-h/filter.png)
+![How to automate canned responses](http://onlinetechtipscom.c.presscdn.com/wp-content/uploads/2008/10/gmail-canned-response.jpg)
 
+### History
+
+Canned Emails is a website where you can find pre-writtem emails, originally by [@dwmerriman](https://twitter.com/dwmerriman) at  [cannedemails.com](http://cannedemails.com).
+
+Open source Clone by [@nikhilmohan7](https://twitter.com/nikhilmohan7) at [canned-emails.lightrains.com](http://canned-emails.lightrains.com)
 
 ### Some nice reads
 

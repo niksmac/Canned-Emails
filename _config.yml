@@ -1,10 +1,12 @@
 # Site settings
 title: Canned Emails
 description: >
-  a minimal site with prewritten emails
+  Canned Emails is a minimal site with prewritten emails, useful for people who prefer easy way of doing things.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hitchhiker.ma" # the base hostname & protocol for your site
+url: "http://canned-emails.lightrains.com" # the base hostname & protocol for your site
+
+cover: /assets/img/canned-emails.png
 
 permalink: /email/:title
 
