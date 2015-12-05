@@ -18,6 +18,8 @@ permalink: /contribute/
 
   make your changes and create a `pull request`
 
+  It would be great if you could make new email commit in the **Email - Subject** format.
+
 ## Are you not a Developer ?
 
 Send your email to nikhil [at] lightrains [dot] com and i shall add it here...
