@@ -1,6 +1,3 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 @charset "utf-8";
 
 /* =Colors */
@@ -9,20 +6,11 @@ $iron: #333333;
 $cloudy: #828282;
 
 // Night
-
 $ndorian: #2e2e2e;
 $niron: #CCCCCC;
 $ncloudy: #828282;
-
-@import
-  "mixins",
-  "default",
-  "404"
-;
-
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import "mixins", "default", "404";
+@import url(http://fonts.googleapis.com/css?family=Inconsolata|PT+Sans|PT+Sans+Narrow:700);
 article,
 aside,
 details,
@@ -35,15 +23,6 @@ nav,
 section,
 summary {
   display: block;
-}
-audio,
-canvas,
-video {
-  display: inline-block;
-}
-audio:not([controls]) {
-  display: none;
-  height: 0;
 }
 [hidden] {
   display: none;
@@ -62,9 +41,6 @@ a:focus {
 a:active,
 a:hover {
   outline: 0;
-}
-h1 {
-  font-size: 2em;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -131,9 +107,6 @@ a:visited {
 a:hover {
   color: #cb4b16;
 }
-h1 {
-  color: #d33682;
-}
 h2,
 h3,
 h4,
@@ -152,20 +125,26 @@ pre code {
   background-color: #fdf6e3;
 }
 h1 {
-  font-size: 2.8em;
+  font-size: 1.4em;
+  margin: 0;
+  color: #d33682;
 }
 h2 {
-  font-size: 2.4em;
+  font-size: 1.2em;
 }
 h3 {
-  font-size: 1.8em;
+  font-size: 1.0em;
 }
 h4 {
-  font-size: 1.4em;
+  font-size: 0.8em;
 }
 h5 {
-  font-size: 1.3em;
+  font-size: 0.5em;
 }
 h6 {
-  font-size: 1.15em;
+  font-size: 0.2em;
+}
+.send-links {
+  text-align: center;
+  color: #d33682;
 }

@@ -1,7 +1,7 @@
 @mixin centered-block() {
-    display: block;
-    text-align: center;
-    width: 100%;
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 @mixin blur-this($radious) {
   -webkit-filter: blur($radious);

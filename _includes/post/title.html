@@ -1,9 +1,9 @@
-<h1 class="page-title post-title">
-  <div class="page-title__text post-title__text">{{ page.title }}</div>
+<h2 class="page-title post-title" title="{{ page.title }}">
+  <span class="page-title__text post-title__text">{{ page.title }}</span>
   {% if page.subtitle %}
-  <div class="page-title__subtitle post-title__subtitle">{{ page.subtitle }}</div>
+  <span class="page-title__subtitle post-title__subtitle">{{ page.subtitle }}</span>
   {% endif %}
-</h1>
-<div class="social-links">
-  <a href="mailto:?subject={{ page.title }}&body={{ page.content | strip_html | uri_escape }}" title="Send Now" ><i class="fa fa-inbox yellow"></i></a>
+</h2>
+<div class="send-links">
+  <a href="mailto:?subject={{ page.title }}&body={{ page.content | strip_html | uri_escape }}" title="Send Now" ><i class="fa fa-paper-plane fa-3x"></i></a>
 </div>

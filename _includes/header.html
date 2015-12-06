@@ -1,6 +1,6 @@
 <header class="header">
   <div class="navigation">
-    <a href="/" class="logo">{{ site.title }}</a>
+    <a href="/" class="logo" title="{{ site.title }}"><h1>{{ site.title }}</h1></a>
     <ul class="menu">
       <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Emails</a></li>
       <li class="menu__entry"><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
@@ -10,7 +10,7 @@
   <ul class="social-links">
     {% if site.author.github %}
     <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-      <i class="fa fa-github"></i>
+      <i class="fa fa-github-square"></i>
     </a>
     {% endif %}
     <a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="social-links__entry" title="Canned Emails RSS Feed">
