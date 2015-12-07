@@ -5,11 +5,12 @@
   {% include meta_tags/sharing.html %}
   {% include externals/styling.html %}
 </head>
-<body>
+<body id="{{ page.path }}">
   <div class="wrapper">
     {% include header.html %}
     {{ content }}
   </div>
   {% include externals/google_analytics.html %}
+  {% include footer.html %}
 </body>
 </html>

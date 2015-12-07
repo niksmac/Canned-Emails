@@ -7,13 +7,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://canned-emails.lightrains.com" # the base hostname & protocol for your site
 
 cover: /assets/img/canned-emails.png
+lang: en
 
 permalink: /email/:title
 
 author:
   fullname: Nikhil Mohan
-  github: niksmac/Canned-Emails.git
-  google_analytics: 'UA-XXXXXXXX-X'
+  github: niksmac/Canned-Emails
+  google_analytics: 'UA-71104240-1'
 
 # Build settings
 markdown: kramdown
