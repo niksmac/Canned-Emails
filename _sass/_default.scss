@@ -12,18 +12,6 @@ a {
 
   }
 }
-body.sunset {
-  background: url(/assets/img/sunset.jpg) no-repeat center center fixed #000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  a,
-  .post-teaser__date,
-  .explore {
-    color: #EEE;
-  }
-}
 body.night {
   color: $niron !important;
   background-color: $ndorian !important;

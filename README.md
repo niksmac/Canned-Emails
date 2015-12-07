@@ -12,11 +12,12 @@ Simply fork away and create your email as a new post, please follow these guidel
 ---
 layout: post
 title:  "Apologize for problem / bug"
-subtitle: ""
+subtitle: "" // optional
 date:   2015-12-01 00:00:01
-categories: [work, personal, misc]
+categories: [work, personal, misc] // use any/only 3
 author:
   fullname: Your Name
+source: http://domain.tld // source url
 ---
 ```
 
