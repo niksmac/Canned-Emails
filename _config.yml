@@ -14,7 +14,8 @@ permalink: /email/:title
 author:
   fullname: Nikhil Mohan
   github: niksmac/Canned-Emails
-  google_analytics: 'UA-71104240-1'
+
+google_analytics: 'UA-71104240-1'
 
 # Build settings
 markdown: kramdown
