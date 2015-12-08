@@ -36,6 +36,17 @@ function filterList(header, list) {
     $(this).change();
   });
 }
+
+function applyclass() {
+  var d = new Date();
+  var n = d.getHours();
+  if (n > 19)
+    document.body.className = "night";
+  else
+    document.body.className = "day";
+}
+
 jQuery(function () {
   filterList(jQuery("#filter-form"), jQuery(".list-posts"));
+  applyclass();
 });
