@@ -9,7 +9,7 @@ jQuery.extend (
 
 function filterList(header, list) {
   var form = $("<form>").attr({"class":"filterform","action":"#"}),
-  input = $("<input>").attr({"class":"search searchTerm","type":"search", "placeholder": 'What are you looking for?'});
+  input = $("<input>").attr({"class":"search searchTerm","type":"search", "itemprop":"query-input", "name":"searchbox", "placeholder": 'What are you looking for?'});
   $(form).append(input).appendTo(header);
   input.focus();
   var hash = window.location.hash.substring(1);
