@@ -1,6 +1,6 @@
 # Canned Emails
 
-Canned Emails is a website where you can find pre-writtem emails, originally by [@dwmerriman](https://twitter.com/dwmerriman) [cannedemails.com](http://cannedemails.com); Open source Clone by [@nikhilmohan7](https://twitter.com/nikhilmohan7).
+Canned Emails is a website where you can find pre-writtem emails, originally by [@dwmerriman](https://twitter.com/dwmerriman) [cannedemails.com](http://cannedemails.com); Open source Clone by [@niksmac_](https://twitter.com/niksmac_).
 
 ## Contributing
 
